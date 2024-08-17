@@ -2,74 +2,20 @@
 
 ## Descrição
 
-Uma rede farmacêutica chamada LAV abriu diversas filiais espalhadas pelo Brasil. Além do nome, a rede também possui um ID, CNPJ e um site.
+Uma Rede Farmacêutica abriu diversas filiais espalhadas pelo Brasil. Além do nome LAV, a rede também possui ID, CNPJ e um site.
 
-### Filiais
+Cada filial da rede tem um número exclusivo de identificação, um telefone e um endereço. As filiais possuem funcionários, os quais são identificados por um ID e apresentam um CPF, um nome, número de telefone, cargo, certificado(s) e salário.
 
-Cada filial da rede possui:
-- Um número exclusivo de identificação
-- Telefone
-- Endereço
+A rede farmacêutica também mantém relacionamentos com fornecedores que abastecem suas filiais. Cada fornecedor possui um ID, um CNPJ, um nome, telefone, endereço e  portfólio de produtos.
 
-### Funcionários
+Os produtos da farmácia incluem informações como ID, nome, preço, marca, data de validade e data de fabricação. Dentro da categoria de produtos, há dois tipos: Remédios e Outros. Cada remédio apresenta um ID, o tipo do remédio (original ou genérico), a tarja que indica sua venda, a forma de fabricação, a prescrição médica (com receita ou não), a composição do remédio e a forma de administração. Cada remédio está associado a uma classe específica de medicamentos, que é identificada por um ID e um nome.
 
-Os funcionários das filiais possuem:
-- ID exclusivo
-- CPF
-- Nome
-- Telefone
-- Cargo
-- Certificado(s)
-- Salário
+Além disso, os remédios contém informações sobre os princípios ativos usados na fabricação deles. Cada princípio ativo armazena um ID e um nome.
 
-### Fornecedores
+Os outros produtos possuem seções que incluem informações sobre as diferentes categorias dentro das filiais da rede farmacêutica, cada uma identificada por um ID e um nome.
 
-A rede farmacêutica mantém relações com fornecedores para abastecimento das filiais. Cada fornecedor possui:
-- ID exclusivo
-- CNPJ
-- Nome
-- Telefone
-- Endereço
-- Portfólio de produtos
+Os funcionários da LAV atendem clientes, cada cliente possui CPF, ID, nome e telefone. A cada venda realizada são armazenados a data e o ID desta venda, tais dados servirão para a emissão de relatórios para fins de controle da Rede Farmacêutica.
 
-### Produtos
-
-Os produtos da farmácia incluem:
-- ID exclusivo
-- Nome
-- Preço
-- Marca
-- Data de validade
-- Data de fabricação
-
-#### Tipos de Produtos
-
-1. **Remédios**: 
-   - ID exclusivo
-   - Tipo: Original ou Genérico
-   - Tarja: Indicando restrição de venda
-   - Forma de fabricação
-   - Prescrição médica: Com receita ou não
-   - Composição
-   - Forma de administração
-   - Classe: Identificada por ID e nome
-
-2. **Princípios Ativos**:
-   - ID exclusivo
-   - Nome
-
-3. **Outros Produtos**:
-   - Seções com informações sobre diferentes categorias, cada uma identificada por ID e nome.
-
-### Clientes
-
-Os funcionários atendem clientes. Cada cliente possui:
-- CPF
-- ID exclusivo
-- Nome
-- Telefone
-
-Cada venda realizada armazena a data e o ID da venda para fins de emissão de relatórios e controle da rede farmacêutica.
 
 ---
 
